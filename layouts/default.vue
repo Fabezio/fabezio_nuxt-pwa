@@ -1,10 +1,10 @@
 <template lang="pug">
-div
+v-app
   Navbar.top-0.fixed
-  MoreInfo
+  //MoreInfo
   // Clock
-  nuxt.container(class="md:my-20")
-  Footer.mt-5.pt-5(class="lg lg:bottom-0")
+  //nuxt.container(class="md:my-20")
+  //Footer.mt-5.pt-5(class="lg lg:bottom-0")
 
 </template>
 
