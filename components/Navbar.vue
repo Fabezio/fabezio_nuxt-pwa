@@ -1,9 +1,10 @@
 <template lang="pug">
-v-app-bar(app primary dense)
+v-app-bar(app dark color='primary')
   v-toolbar-title
-    nuxt-link.brand.flex.btn.items-center(to='/')
+    nuxt-link(to='/')
       //img(src='@/assets/favicon-32.png')
-      div.text-2xl.ml-1.font-semibold.tracking-tight.uppercase fabezio
+      v-btn(text)
+        h1 fabezio
 
   //.block(class='lg:hidden')
     button.flex.items-center.px-3.py-2.border.rounded.text-teal-200.border-teal-400(@click="navbarToggle" aria-target='#links' class='hover:text-white hover:border-white')
@@ -39,7 +40,7 @@ v-app-bar(app primary dense)
       div(v-for='link in dropdownLinks', :key='link.route')
         nuxt-link.nav-link.buttons(:to='link.route')
           // iconstack(:faclass='link.icon')
-            span.route {{link.name}}
+          span.route {{link.name}}
 
 </template>
 
