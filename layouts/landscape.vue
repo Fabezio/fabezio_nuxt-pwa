@@ -2,7 +2,8 @@
 v-app
   Navbar
   MoreInfo
-  nuxt
+  v-container
+    nuxt
   Footer
 
 </template>
