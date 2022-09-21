@@ -29,6 +29,6 @@
     "prettier": "^1.16.4",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
-    "vuetify": "^2.2.8"
+    "vuetify": "^2.6.10"
   }
 }
